@@ -1,6 +1,6 @@
 name: flutter_ibeacon_recorder
-description: "A new Flutter project."
-publish_to: 'none'
+description: "POI ibeacon recorder"
+publish_to: "none"
 version: 0.1.0
 
 environment:
@@ -9,6 +9,17 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  permission_handler: ^11.3.1
+  app_settings: ^5.1.1
+  get: ^4.3.8
+  dchs_flutter_beacon: ^0.6.4
+  dchs_motion_sensors: ^2.0.1
+  vector_math: ^2.1.4
+  mongo_dart: ^0.10.4
+  device_info_plus: ^11.2.0
+  fl_chart: ^0.66.2
+  compassx: ^1.0.1
+  flutter_html: ^3.0.0
 
 dev_dependencies:
   flutter_test:
@@ -17,3 +28,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+  assets:
+    - assets/artworks.jsonl
+    - assets/pictures/
